@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LeaderboardTools.Properties;
 using log4net;
+using Newtonsoft.Json;
 using toofz.NecroDancer.Leaderboards;
 using toofz.NecroDancer.Leaderboards.Steam.ClientApi;
 
@@ -21,9 +23,12 @@ namespace LeaderboardTools
                 var characters = db.Characters.ToList();
                 var expectedLeaderboards = new LeaderboardsEnumerable(products, modes, runs, characters);
 
+                // Exclude cached leaderboards
+                var cachedLeaderboards = JsonConvert.DeserializeObject<IEnumerable<Leaderboard>>(Resources.Leaderboards);
+                var missingLeaderboards = expectedLeaderboards.Except(cachedLeaderboards, new LeaderboardEqualityComparer()).ToList();
                 // Exclude existing leaderboards
                 var leaderboards = db.Leaderboards.ToList();
-                var missingLeaderboards = expectedLeaderboards.Except(leaderboards, new LeaderboardEqualityComparer()).ToList();
+                missingLeaderboards = expectedLeaderboards.Except(leaderboards, new LeaderboardEqualityComparer()).ToList();
 
                 if (missingLeaderboards.Any())
                 {

@@ -100,34 +100,58 @@ namespace LeaderboardTools.Properties {
         ///   Looks up a localized string similar to [
         ///  {
         ///    &quot;LeaderboardId&quot;: 391760,
+        ///    &quot;DisplayName&quot;: &quot;Daily (2014-07-30) (Early Access)&quot;,
+        ///    &quot;Name&quot;: &quot;30/7/2014&quot;,
         ///    &quot;IsProduction&quot;: false,
         ///    &quot;ProductId&quot;: 0,
         ///    &quot;Date&quot;: &quot;2014-07-30T00:00:00&quot;
         ///  },
         ///  {
         ///    &quot;LeaderboardId&quot;: 394529,
+        ///    &quot;DisplayName&quot;: &quot;Daily (2014-07-31) (Early Access)&quot;,
+        ///    &quot;Name&quot;: &quot;31/7/2014&quot;,
         ///    &quot;IsProduction&quot;: false,
         ///    &quot;ProductId&quot;: 0,
         ///    &quot;Date&quot;: &quot;2014-07-31T00:00:00&quot;
         ///  },
         ///  {
         ///    &quot;LeaderboardId&quot;: 396523,
-        ///    &quot;IsProduction&quot;: false,
-        ///    &quot;ProductId&quot;: 0,
-        ///    &quot;Date&quot;: &quot;2014-08-01T00:00:00&quot;
-        ///  },
-        ///  {
-        ///    &quot;LeaderboardId&quot;: 396524,
-        ///    &quot;IsProduction&quot;: false,
-        ///    &quot;ProductId&quot;: 0,
-        ///    &quot;Date&quot;: &quot;2014-08-02T00:00:00&quot;
-        ///  },
-        ///  {
-        ///     [rest of string was truncated]&quot;;.
+        ///    &quot;DisplayName&quot;: &quot;Daily (2014-08-01) (Early Access)&quot;,
+        ///  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DailyLeaderboards {
             get {
                 return ResourceManager.GetString("DailyLeaderboards", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [
+        ///  {
+        ///    &quot;LeaderboardId&quot;: 693094,
+        ///    &quot;DisplayName&quot;: &quot;All Characters Score&quot;,
+        ///    &quot;Name&quot;: &quot;HARDCORE All Chars&quot;,
+        ///    &quot;IsProduction&quot;: false,
+        ///    &quot;ProductId&quot;: 0,
+        ///    &quot;ModeId&quot;: 0,
+        ///    &quot;RunId&quot;: 0,
+        ///    &quot;CharacterId&quot;: -3,
+        ///    &quot;IsCustomMusic&quot;: false,
+        ///    &quot;IsCoOp&quot;: false
+        ///  },
+        ///  {
+        ///    &quot;LeaderboardId&quot;: 685490,
+        ///    &quot;DisplayName&quot;: &quot;All Characters Score (Custom Music)&quot;,
+        ///    &quot;Name&quot;: &quot;HARDCORE All Chars CUSTOM MUSIC&quot;,
+        ///    &quot;IsProduction&quot;: false,
+        ///    &quot;ProductId&quot;: 0,
+        ///    &quot;ModeId&quot;: 0,
+        ///    &quot;RunId&quot;: 0,
+        ///    &quot; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Leaderboards {
+            get {
+                return ResourceManager.GetString("Leaderboards", resourceCulture);
             }
         }
         

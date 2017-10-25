@@ -102,6 +102,7 @@
     </Compile>
     <None Include="Resources\Characters.json" />
     <None Include="Resources\DailyLeaderboards.json" />
+    <None Include="Resources\Leaderboards.json" />
     <None Include="Resources\Modes.json" />
     <None Include="Resources\Products.json" />
     <None Include="Resources\Runs.json" />

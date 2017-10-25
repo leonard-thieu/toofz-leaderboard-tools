@@ -124,6 +124,9 @@
   <data name="DailyLeaderboards" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DailyLeaderboards.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="Leaderboards" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leaderboards.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="Modes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Modes.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>

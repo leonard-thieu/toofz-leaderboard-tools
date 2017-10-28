@@ -65,9 +65,7 @@ namespace LeaderboardTools
 
         private static async Task UpdateDailyLeaderboardAsync(ISteamClientApiClient steamClient, DailyLeaderboard leaderboard)
         {
-            Log.Debug($"Start download {leaderboard.Name}.");
             var response = await steamClient.FindLeaderboardAsync(247080, leaderboard.Name).ConfigureAwait(false);
-            Log.Debug($"End download {leaderboard.Name}.");
 
             if (response.ID == 0)
             {

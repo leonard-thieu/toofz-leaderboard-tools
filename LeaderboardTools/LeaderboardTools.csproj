@@ -35,48 +35,13 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Flurl, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Flurl.2.5.0\lib\net40\Flurl.dll</HintPath>
-    </Reference>
-    <Reference Include="Humanizer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=979442b78dfc278e, processorArchitecture=MSIL">
-      <HintPath>..\packages\Humanizer.Core.2.2.0\lib\netstandard1.0\Humanizer.dll</HintPath>
-    </Reference>
-    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
-      <HintPath>..\packages\protobuf-net.2.0.0.668\lib\net40\protobuf-net.dll</HintPath>
-    </Reference>
-    <Reference Include="SqlBulkUpsert, Version=4.1.7.146, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\toofz.SqlBulkUpsert.4.1.7\lib\net45\SqlBulkUpsert.dll</HintPath>
-    </Reference>
-    <Reference Include="SteamKit2, Version=3.0.1.32, Culture=neutral, PublicKeyToken=ed3ce47ed5aad940, processorArchitecture=MSIL">
-      <HintPath>..\packages\toofz.SteamKit2.3.0.1\lib\net461\SteamKit2.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="toofz, Version=9.0.0.187, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\toofz.9.0.0\lib\net45\toofz.dll</HintPath>
-    </Reference>
-    <Reference Include="toofz.NecroDancer.Leaderboards, Version=16.0.2.276, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\toofz.NecroDancer.Leaderboards.16.0.2\lib\net461\toofz.NecroDancer.Leaderboards.dll</HintPath>
-    </Reference>
-    <Reference Include="toofz.NecroDancer.Leaderboards.Data, Version=9.0.3.79, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\toofz.NecroDancer.Leaderboards.Data.9.0.3\lib\net461\toofz.NecroDancer.Leaderboards.Data.dll</HintPath>
-    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="toofz.NecroDancer.Leaderboards.Data">
+      <Version>10.0.0</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,9 +50,6 @@
     </None>
     <None Include="log.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>

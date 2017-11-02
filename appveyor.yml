@@ -9,7 +9,7 @@ environment:
   MYGET_API_KEY:
     secure: XZmbJDCK5oiqhbLt1y7UXM6aCYPpF2tm/bJMUJzBsCe1fd2TuwXyaz99RN+bDpHw
 cache:
-  - packages -> **\packages.config
+  - '%USERPROFILE%\.nuget\packages'
 notifications:
   - provider: Slack
     incoming_webhook:
@@ -20,6 +20,7 @@ assembly_info:
   assembly_version: $(appveyor_build_version)
 
 install:
+  - nuget update -Self
   - git clone https://github.com/leonard-thieu/toofz-build.git Scripts
   
 before_build:

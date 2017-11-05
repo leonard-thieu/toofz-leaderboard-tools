@@ -91,6 +91,7 @@ namespace LeaderboardTools
         {
             var settings = new JsonSerializerSettings
             {
+                DateTimeZoneHandling = DateTimeZoneHandling.Utc,
                 DefaultValueHandling = defaultValueHandling,
                 Formatting = Formatting.Indented,
             };

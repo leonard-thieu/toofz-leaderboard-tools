@@ -5988,6 +5988,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2269971,
+    "DisplayName": "Melody Phasing Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Melody CO-OP PHASING_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 3,
+    "RunId": 1,
+    "CharacterId": 1,
+    "IsCustomMusic": false,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2049950,
     "DisplayName": "Melody Phasing Speed (Amplified) (Custom Music)",
     "Name": "DLC SPEEDRUN Melody PHASING CUSTOM MUSIC_PROD",
@@ -6828,6 +6840,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2264988,
+    "DisplayName": "Aria Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SPEEDRUN Aria CO-OP CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 0,
+    "RunId": 1,
+    "CharacterId": 2,
+    "IsCustomMusic": true,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2047969,
     "DisplayName": "Aria No Return Speed (Amplified)",
     "Name": "DLC SPEEDRUN Aria NO RETURN_PROD",
@@ -6874,6 +6898,18 @@
     "CharacterId": 2,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2269990,
+    "DisplayName": "Aria Phasing Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Aria CO-OP PHASING_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 3,
+    "RunId": 1,
+    "CharacterId": 2,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2049406,
@@ -7656,6 +7692,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2264994,
+    "DisplayName": "Dorian Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SPEEDRUN Dorian CO-OP CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 0,
+    "RunId": 1,
+    "CharacterId": 3,
+    "IsCustomMusic": true,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2049727,
     "DisplayName": "Dorian No Return Speed (Amplified)",
     "Name": "DLC SPEEDRUN Dorian NO RETURN_PROD",
@@ -7702,6 +7750,18 @@
     "CharacterId": 3,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2269998,
+    "DisplayName": "Dorian Phasing Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Dorian CO-OP PHASING_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 3,
+    "RunId": 1,
+    "CharacterId": 3,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2049135,
@@ -8578,6 +8638,18 @@
     "CharacterId": 4,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2270004,
+    "DisplayName": "Eli Phasing Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Eli CO-OP PHASING_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 3,
+    "RunId": 1,
+    "CharacterId": 4,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2049486,
@@ -11124,6 +11196,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2266820,
+    "DisplayName": "Coda Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SPEEDRUN Coda CO-OP CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 0,
+    "RunId": 1,
+    "CharacterId": 7,
+    "IsCustomMusic": true,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 1795160,
     "DisplayName": "Coda No Return Speed (Amplified)",
     "Name": "DLC SPEEDRUN Coda NO RETURN_PROD",
@@ -12024,6 +12108,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2268412,
+    "DisplayName": "Bolt Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SPEEDRUN Bolt CO-OP CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 0,
+    "RunId": 1,
+    "CharacterId": 8,
+    "IsCustomMusic": true,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2054023,
     "DisplayName": "Bolt No Return Speed (Amplified)",
     "Name": "DLC SPEEDRUN Bolt NO RETURN_PROD",
@@ -12070,6 +12166,18 @@
     "CharacterId": 8,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2270048,
+    "DisplayName": "Bolt Phasing Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Bolt CO-OP PHASING_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 3,
+    "RunId": 1,
+    "CharacterId": 8,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2042275,

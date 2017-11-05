@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using LeaderboardTools.Properties;
@@ -16,16 +18,26 @@ namespace LeaderboardTools
 
         public static async Task<IEnumerable<DailyLeaderboard>> GetDailyLeaderboardsAsync(ISteamClientApiClient steamClient)
         {
+            var expectedDailyLeaderboards = new DailyLeaderboardsEnumerable(DateTime.UtcNow.Date);
+
+            var missingDaily = expectedDailyLeaderboards.First(d => d.Date == new DateTime(2017, 10, 3, 0, 0, 0, DateTimeKind.Utc));
+
+            // Add leaderboards found in local cache.
+            // This does not perform updates since the local cache may contain bad data due to bugs from previous builds.
+            var cachedDailyLeaderboards = JsonConvert.DeserializeObject<IEnumerable<DailyLeaderboard>>(Resources.DailyLeaderboards);
+            var connectionString = ConfigurationManager.ConnectionStrings[nameof(LeaderboardsContext)].ConnectionString;
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var storeClient = new LeaderboardsStoreClient(connection);
+                var options = new BulkUpsertOptions { UpdateWhenMatched = false };
+                await storeClient.BulkUpsertAsync(cachedDailyLeaderboards, options, default).ConfigureAwait(false);
+            }
+
             using (var db = new LeaderboardsContext())
             {
-                var expectedDailyLeaderboards = new DailyLeaderboardsEnumerable(DateTime.UtcNow.Date);
-
-                // Exclude cached daily leaderboards
-                var cachedDailyLeaderboards = JsonConvert.DeserializeObject<IEnumerable<DailyLeaderboard>>(Resources.DailyLeaderboards);
-                var missingDailyLeaderboards = expectedDailyLeaderboards.Except(cachedDailyLeaderboards, new DailyLeaderboardEqualityComparer()).ToList();
                 // Exclude existing daily leaderboards
                 var dailyLeaderboards = db.DailyLeaderboards.ToList();
-                missingDailyLeaderboards = missingDailyLeaderboards.Except(dailyLeaderboards, new DailyLeaderboardEqualityComparer()).ToList();
+                var missingDailyLeaderboards = expectedDailyLeaderboards.Except(dailyLeaderboards, new DailyLeaderboardEqualityComparer()).ToList();
 
                 if (missingDailyLeaderboards.Any())
                 {

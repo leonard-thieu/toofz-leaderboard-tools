@@ -74,15 +74,15 @@ namespace LeaderboardTools
 
         private static async Task UpdateLeaderboardAsync(ISteamClientApiClient steamClient, Leaderboard leaderboard)
         {
-            var response = await steamClient.FindLeaderboardAsync(247080, leaderboard.Name).ConfigureAwait(false);
-
-            if (response.ID == 0)
+            try
             {
-                var message = $"Leaderboard named '{leaderboard.Name}' could not be found.";
-                Log.Info(message);
+                var response = await steamClient.FindLeaderboardAsync(247080, leaderboard.Name).ConfigureAwait(false);
+                leaderboard.LeaderboardId = response.ID;
             }
-
-            leaderboard.LeaderboardId = response.ID;
+            catch (SteamClientApiException)
+            {
+                Log.Warn($"Leaderboard named '{leaderboard.Name}' could not be found.");
+            }
         }
     }
 }

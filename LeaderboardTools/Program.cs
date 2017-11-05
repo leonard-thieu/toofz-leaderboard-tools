@@ -52,6 +52,8 @@ namespace LeaderboardTools
 
             using (var steamClient = new SteamClientApiClient(userName, password))
             {
+                steamClient.Timeout = TimeSpan.FromSeconds(30);
+
                 await steamClient.ConnectAndLogOnAsync().ConfigureAwait(false);
 
                 var leaderboards = await Leaderboards.GetLeaderboardsAsync(steamClient).ConfigureAwait(false);

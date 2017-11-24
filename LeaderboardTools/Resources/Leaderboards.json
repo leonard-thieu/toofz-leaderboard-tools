@@ -5412,6 +5412,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2284265,
+    "DisplayName": "Cadence Seeded Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SEEDED SPEEDRUN CO-OP CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 0,
+    "RunId": 3,
+    "CharacterId": 0,
+    "IsCustomMusic": true,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2054025,
     "DisplayName": "Cadence No Return Seeded Speed (Amplified)",
     "Name": "DLC SEEDED SPEEDRUN NO RETURN_PROD",
@@ -6024,6 +6036,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2291102,
+    "DisplayName": "Melody Randomizer Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Melody CO-OP RANDOMIZER_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 4,
+    "RunId": 1,
+    "CharacterId": 1,
+    "IsCustomMusic": false,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2047653,
     "DisplayName": "Melody Mystery Speed (Amplified)",
     "Name": "DLC SPEEDRUN Melody MYSTERY_PROD",
@@ -6358,6 +6382,18 @@
     "CharacterId": 1,
     "IsCustomMusic": true,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2284277,
+    "DisplayName": "Melody Seeded Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SEEDED SPEEDRUN Melody CO-OP CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 0,
+    "RunId": 3,
+    "CharacterId": 1,
+    "IsCustomMusic": true,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 1831444,
@@ -6934,6 +6970,18 @@
     "CharacterId": 2,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2287373,
+    "DisplayName": "Aria Mystery Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Aria CO-OP MYSTERY_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 5,
+    "RunId": 1,
+    "CharacterId": 2,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2048003,
@@ -8628,6 +8676,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2303032,
+    "DisplayName": "Eli Hard Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Eli CO-OP HARD_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 2,
+    "RunId": 1,
+    "CharacterId": 4,
+    "IsCustomMusic": false,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2039279,
     "DisplayName": "Eli Phasing Speed (Amplified)",
     "Name": "DLC SPEEDRUN Eli PHASING_PROD",
@@ -8662,6 +8722,18 @@
     "CharacterId": 4,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2288823,
+    "DisplayName": "Eli Randomizer Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Eli CO-OP RANDOMIZER_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 4,
+    "RunId": 1,
+    "CharacterId": 4,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2088004,
@@ -9012,6 +9084,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2284288,
+    "DisplayName": "Eli Seeded Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SEEDED SPEEDRUN Eli CO-OP CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 0,
+    "RunId": 3,
+    "CharacterId": 4,
+    "IsCustomMusic": true,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 1824241,
     "DisplayName": "Eli No Return Seeded Speed (Amplified)",
     "Name": "DLC SEEDED SPEEDRUN Eli NO RETURN_PROD",
@@ -9034,6 +9118,18 @@
     "CharacterId": 4,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2304744,
+    "DisplayName": "Eli Hard Seeded Speed (Amplified) (Co-op)",
+    "Name": "DLC SEEDED SPEEDRUN Eli CO-OP HARD_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 2,
+    "RunId": 3,
+    "CharacterId": 4,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2047951,
@@ -11280,6 +11376,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2288807,
+    "DisplayName": "Coda Randomizer Speed (Amplified) (Custom Music)",
+    "Name": "DLC SPEEDRUN Coda RANDOMIZER CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 4,
+    "RunId": 1,
+    "CharacterId": 7,
+    "IsCustomMusic": true,
+    "IsCoOp": false
+  },
+  {
     "LeaderboardId": 2048845,
     "DisplayName": "Coda Mystery Speed (Amplified)",
     "Name": "DLC SPEEDRUN Coda MYSTERY_PROD",
@@ -11709,6 +11817,18 @@
     "RunId": 3,
     "CharacterId": 7,
     "IsCustomMusic": false,
+    "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2288813,
+    "DisplayName": "Coda Randomizer Seeded Speed (Amplified) (Custom Music)",
+    "Name": "DLC SEEDED SPEEDRUN Coda RANDOMIZER CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 4,
+    "RunId": 3,
+    "CharacterId": 7,
+    "IsCustomMusic": true,
     "IsCoOp": false
   },
   {
@@ -12144,6 +12264,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2288855,
+    "DisplayName": "Bolt Hard Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Bolt CO-OP HARD_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 2,
+    "RunId": 1,
+    "CharacterId": 8,
+    "IsCustomMusic": false,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2141959,
     "DisplayName": "Bolt Hard Speed (Amplified) (Co-op) (Custom Music)",
     "Name": "DLC SPEEDRUN Bolt CO-OP HARD CUSTOM MUSIC_PROD",
@@ -12190,6 +12322,18 @@
     "CharacterId": 8,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2287402,
+    "DisplayName": "Bolt Randomizer Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Bolt CO-OP RANDOMIZER_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 4,
+    "RunId": 1,
+    "CharacterId": 8,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2042279,
@@ -12550,6 +12694,18 @@
     "CharacterId": 8,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2293602,
+    "DisplayName": "Bolt Hard Seeded Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SEEDED SPEEDRUN Bolt CO-OP HARD CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 2,
+    "RunId": 3,
+    "CharacterId": 8,
+    "IsCustomMusic": true,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2051008,
@@ -14472,6 +14628,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2282252,
+    "DisplayName": "Diamond Speed (Amplified) (Co-op) (Custom Music)",
+    "Name": "DLC SPEEDRUN Diamond CO-OP CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 0,
+    "RunId": 1,
+    "CharacterId": 11,
+    "IsCustomMusic": true,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2047859,
     "DisplayName": "Diamond No Return Speed (Amplified)",
     "Name": "DLC SPEEDRUN Diamond NO RETURN_PROD",
@@ -16222,6 +16390,18 @@
     "CharacterId": 13,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2288846,
+    "DisplayName": "Tempo Phasing Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Tempo CO-OP PHASING_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 3,
+    "RunId": 1,
+    "CharacterId": 13,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2047971,

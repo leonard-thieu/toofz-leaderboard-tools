@@ -11854,5 +11854,309 @@
     "IsProduction": true,
     "ProductId": 1,
     "Date": "2017-11-05T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2270353,
+    "DisplayName": "Daily (2017-11-06)",
+    "Name": "6/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-06T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2272445,
+    "DisplayName": "Daily (2017-11-06) (Amplified)",
+    "Name": "DLC 6/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-06T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2273174,
+    "DisplayName": "Daily (2017-11-07)",
+    "Name": "7/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-07T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2273480,
+    "DisplayName": "Daily (2017-11-07) (Amplified)",
+    "Name": "DLC 7/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-07T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2274568,
+    "DisplayName": "Daily (2017-11-08)",
+    "Name": "8/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-08T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2271153,
+    "DisplayName": "Daily (2017-11-08) (Amplified)",
+    "Name": "DLC 8/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-08T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2275162,
+    "DisplayName": "Daily (2017-11-09)",
+    "Name": "9/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-09T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2276925,
+    "DisplayName": "Daily (2017-11-09) (Amplified)",
+    "Name": "DLC 9/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-09T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2263613,
+    "DisplayName": "Daily (2017-11-10)",
+    "Name": "10/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-10T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2279800,
+    "DisplayName": "Daily (2017-11-10) (Amplified)",
+    "Name": "DLC 10/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-10T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2264726,
+    "DisplayName": "Daily (2017-11-11)",
+    "Name": "11/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-11T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2077235,
+    "DisplayName": "Daily (2017-11-11) (Amplified)",
+    "Name": "DLC 11/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-11T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2266678,
+    "DisplayName": "Daily (2017-11-12)",
+    "Name": "12/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-12T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2078318,
+    "DisplayName": "Daily (2017-11-12) (Amplified)",
+    "Name": "DLC 12/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-12T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2268463,
+    "DisplayName": "Daily (2017-11-13)",
+    "Name": "13/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-13T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2283785,
+    "DisplayName": "Daily (2017-11-13) (Amplified)",
+    "Name": "DLC 13/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-13T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2282957,
+    "DisplayName": "Daily (2017-11-14)",
+    "Name": "14/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-14T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2285885,
+    "DisplayName": "Daily (2017-11-14) (Amplified)",
+    "Name": "DLC 14/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-14T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2286272,
+    "DisplayName": "Daily (2017-11-15)",
+    "Name": "15/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-15T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2084111,
+    "DisplayName": "Daily (2017-11-15) (Amplified)",
+    "Name": "DLC 15/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-15T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2280682,
+    "DisplayName": "Daily (2017-11-16)",
+    "Name": "16/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-16T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2085487,
+    "DisplayName": "Daily (2017-11-16) (Amplified)",
+    "Name": "DLC 16/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-16T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2289288,
+    "DisplayName": "Daily (2017-11-17)",
+    "Name": "17/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-17T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2290042,
+    "DisplayName": "Daily (2017-11-17) (Amplified)",
+    "Name": "DLC 17/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-17T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2292081,
+    "DisplayName": "Daily (2017-11-18)",
+    "Name": "18/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-18T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2088023,
+    "DisplayName": "Daily (2017-11-18) (Amplified)",
+    "Name": "DLC 18/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-18T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2292737,
+    "DisplayName": "Daily (2017-11-19)",
+    "Name": "19/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-19T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2293545,
+    "DisplayName": "Daily (2017-11-19) (Amplified)",
+    "Name": "DLC 19/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-19T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2294744,
+    "DisplayName": "Daily (2017-11-20)",
+    "Name": "20/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-20T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2296329,
+    "DisplayName": "Daily (2017-11-20) (Amplified)",
+    "Name": "DLC 20/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-20T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2282063,
+    "DisplayName": "Daily (2017-11-21)",
+    "Name": "21/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-21T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2296863,
+    "DisplayName": "Daily (2017-11-21) (Amplified)",
+    "Name": "DLC 21/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-21T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2104506,
+    "DisplayName": "Daily (2017-11-22)",
+    "Name": "22/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-22T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2094310,
+    "DisplayName": "Daily (2017-11-22) (Amplified)",
+    "Name": "DLC 22/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-22T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2300889,
+    "DisplayName": "Daily (2017-11-23)",
+    "Name": "23/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-23T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2296872,
+    "DisplayName": "Daily (2017-11-23) (Amplified)",
+    "Name": "DLC 23/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-23T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2286761,
+    "DisplayName": "Daily (2017-11-24)",
+    "Name": "24/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-24T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2296879,
+    "DisplayName": "Daily (2017-11-24) (Amplified)",
+    "Name": "DLC 24/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-24T00:00:00Z"
   }
 ]

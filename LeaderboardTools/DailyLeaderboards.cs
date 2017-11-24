@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using LeaderboardTools.Properties;
@@ -26,9 +25,8 @@ namespace LeaderboardTools
             // This does not perform updates since the local cache may contain bad data due to bugs from previous builds.
             var cachedDailyLeaderboards = JsonConvert.DeserializeObject<IEnumerable<DailyLeaderboard>>(Resources.DailyLeaderboards);
             var connectionString = ConfigurationManager.ConnectionStrings[nameof(LeaderboardsContext)].ConnectionString;
-            using (var connection = new SqlConnection(connectionString))
+            using (var storeClient = new LeaderboardsStoreClient(connectionString))
             {
-                var storeClient = new LeaderboardsStoreClient(connection);
                 var options = new BulkUpsertOptions { UpdateWhenMatched = false };
                 await storeClient.BulkUpsertAsync(cachedDailyLeaderboards, options, default).ConfigureAwait(false);
             }

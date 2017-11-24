@@ -5,7 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using LeaderboardTools.Properties;
 using log4net;
+using Microsoft.ApplicationInsights;
 using Newtonsoft.Json;
+using Polly;
 using toofz.NecroDancer.Leaderboards;
 using toofz.NecroDancer.Leaderboards.Steam.ClientApi;
 
@@ -14,6 +16,7 @@ namespace LeaderboardTools
     internal static class Program
     {
         private static readonly ILog Log = LogManager.GetLogger(typeof(Program));
+        private static readonly TelemetryClient TelemetryClient = new TelemetryClient();
 
         // Await synchronously. async Main is a debugging nightmare.
         private static void Main(string[] args)
@@ -50,7 +53,7 @@ namespace LeaderboardTools
                 db.SaveChanges();
             }
 
-            using (var steamClient = new SteamClientApiClient(userName, password))
+            using (var steamClient = new SteamClientApiClient(userName, password, Policy.NoOpAsync(), TelemetryClient))
             {
                 steamClient.Timeout = TimeSpan.FromSeconds(30);
 

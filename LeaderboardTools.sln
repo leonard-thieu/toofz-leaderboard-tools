@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaderboardTools", "LeaderboardTools\LeaderboardTools.csproj", "{2FFE085B-B769-442A-BE5B-E51F4EB5F5C1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D99D9F0-74DA-4350-8163-9D556645A91D}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
 		NuGet.Config = NuGet.Config
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaderboardTools", "LeaderboardTools\LeaderboardTools.csproj", "{2FFE085B-B769-442A-BE5B-E51F4EB5F5C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +28,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5230E57-A313-4A57-BB68-C10CC467D0FA}
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
 	EndGlobalSection
 EndGlobal

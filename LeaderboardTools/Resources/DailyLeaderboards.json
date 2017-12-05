@@ -12158,5 +12158,165 @@
     "IsProduction": true,
     "ProductId": 1,
     "Date": "2017-11-24T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2305257,
+    "DisplayName": "Daily (2017-11-25)",
+    "Name": "25/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-25T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2296938,
+    "DisplayName": "Daily (2017-11-25) (Amplified)",
+    "Name": "DLC 25/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-25T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2305928,
+    "DisplayName": "Daily (2017-11-26)",
+    "Name": "26/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-26T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2296945,
+    "DisplayName": "Daily (2017-11-26) (Amplified)",
+    "Name": "DLC 26/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-26T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2306696,
+    "DisplayName": "Daily (2017-11-27)",
+    "Name": "27/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-27T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2296959,
+    "DisplayName": "Daily (2017-11-27) (Amplified)",
+    "Name": "DLC 27/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-27T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2310418,
+    "DisplayName": "Daily (2017-11-28)",
+    "Name": "28/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-28T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2296963,
+    "DisplayName": "Daily (2017-11-28) (Amplified)",
+    "Name": "DLC 28/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-28T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2309928,
+    "DisplayName": "Daily (2017-11-29)",
+    "Name": "29/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-29T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2313129,
+    "DisplayName": "Daily (2017-11-29) (Amplified)",
+    "Name": "DLC 29/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-29T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2086618,
+    "DisplayName": "Daily (2017-11-30)",
+    "Name": "30/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-11-30T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2304194,
+    "DisplayName": "Daily (2017-11-30) (Amplified)",
+    "Name": "DLC 30/11/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-11-30T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2316238,
+    "DisplayName": "Daily (2017-12-01)",
+    "Name": "1/12/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-12-01T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2316413,
+    "DisplayName": "Daily (2017-12-01) (Amplified)",
+    "Name": "DLC 1/12/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-12-01T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2122188,
+    "DisplayName": "Daily (2017-12-02)",
+    "Name": "2/12/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-12-02T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2318604,
+    "DisplayName": "Daily (2017-12-02) (Amplified)",
+    "Name": "DLC 2/12/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-12-02T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2316704,
+    "DisplayName": "Daily (2017-12-03)",
+    "Name": "3/12/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-12-03T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2321817,
+    "DisplayName": "Daily (2017-12-03) (Amplified)",
+    "Name": "DLC 3/12/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-12-03T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2267962,
+    "DisplayName": "Daily (2017-12-04)",
+    "Name": "4/12/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 0,
+    "Date": "2017-12-04T00:00:00Z"
+  },
+  {
+    "LeaderboardId": 2330852,
+    "DisplayName": "Daily (2017-12-04) (Amplified)",
+    "Name": "DLC 4/12/2017_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "Date": "2017-12-04T00:00:00Z"
   }
 ]

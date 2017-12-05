@@ -6048,6 +6048,18 @@
     "IsCoOp": true
   },
   {
+    "LeaderboardId": 2316871,
+    "DisplayName": "Melody Randomizer Speed (Amplified) (Custom Music)",
+    "Name": "DLC SPEEDRUN Melody RANDOMIZER CUSTOM MUSIC_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 4,
+    "RunId": 1,
+    "CharacterId": 1,
+    "IsCustomMusic": true,
+    "IsCoOp": false
+  },
+  {
     "LeaderboardId": 2047653,
     "DisplayName": "Melody Mystery Speed (Amplified)",
     "Name": "DLC SPEEDRUN Melody MYSTERY_PROD",
@@ -15528,6 +15540,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2314429,
+    "DisplayName": "Mary No Return Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Mary CO-OP NO RETURN_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 1,
+    "RunId": 1,
+    "CharacterId": 12,
+    "IsCustomMusic": false,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2048457,
     "DisplayName": "Mary Hard Speed (Amplified)",
     "Name": "DLC SPEEDRUN Mary HARD_PROD",
@@ -15540,6 +15564,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2314431,
+    "DisplayName": "Mary Hard Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Mary CO-OP HARD_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 2,
+    "RunId": 1,
+    "CharacterId": 12,
+    "IsCustomMusic": false,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2048619,
     "DisplayName": "Mary Phasing Speed (Amplified)",
     "Name": "DLC SPEEDRUN Mary PHASING_PROD",
@@ -15550,6 +15586,18 @@
     "CharacterId": 12,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2314433,
+    "DisplayName": "Mary Phasing Speed (Amplified) (Co-op)",
+    "Name": "DLC SPEEDRUN Mary CO-OP PHASING_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 3,
+    "RunId": 1,
+    "CharacterId": 12,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2048624,
@@ -15912,6 +15960,18 @@
     "IsCoOp": false
   },
   {
+    "LeaderboardId": 2314430,
+    "DisplayName": "Mary No Return Seeded Speed (Amplified) (Co-op)",
+    "Name": "DLC SEEDED SPEEDRUN Mary CO-OP NO RETURN_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 1,
+    "RunId": 3,
+    "CharacterId": 12,
+    "IsCustomMusic": false,
+    "IsCoOp": true
+  },
+  {
     "LeaderboardId": 2073089,
     "DisplayName": "Mary No Return Seeded Speed (Amplified) (Custom Music)",
     "Name": "DLC SEEDED SPEEDRUN Mary NO RETURN CUSTOM MUSIC_PROD",
@@ -15934,6 +15994,18 @@
     "CharacterId": 12,
     "IsCustomMusic": false,
     "IsCoOp": false
+  },
+  {
+    "LeaderboardId": 2314432,
+    "DisplayName": "Mary Hard Seeded Speed (Amplified) (Co-op)",
+    "Name": "DLC SEEDED SPEEDRUN Mary CO-OP HARD_PROD",
+    "IsProduction": true,
+    "ProductId": 1,
+    "ModeId": 2,
+    "RunId": 3,
+    "CharacterId": 12,
+    "IsCustomMusic": false,
+    "IsCoOp": true
   },
   {
     "LeaderboardId": 2050971,
